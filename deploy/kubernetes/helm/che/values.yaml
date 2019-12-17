@@ -65,7 +65,7 @@ global:
   log:
     loggerConfig: ""
     appenderName: "plaintext"
-  tracingEnabled: true
+  tracingEnabled: false
   metricsEnabled: true
   # Run Che and Che workspaces as the same non-root user
   securityContext:
