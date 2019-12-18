@@ -8,6 +8,7 @@
 
 FROM jboss/keycloak:6.0.1
 ADD che /opt/jboss/keycloak/themes/che
+ADD popcornsar /opt/jboss/keycloak/themes/popcornsar
 ADD . /scripts/
 ADD cli /scripts/cli
 RUN ln -s /opt/jboss/tools/docker-entrypoint.sh && \
