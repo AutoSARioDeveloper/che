@@ -1,29 +1,29 @@
 {
-  "title": "Eclipse Che ",
-  "name": "Eclipse Che",
-  "logoFile": "che-logo.svg",
-  "logoTextFile": "che-logo-text.svg",
-  "favicon": "favicon.ico",
-  "loader": "loader.svg",
+  "title": "PopcornSAR ",
+  "name": "PopcornSAR Studio",
+  "logoFile": "popcornsar/popcornsar-logo.svg",
+  "logoTextFile": "popcornsar/popcornsar-logo-text.svg",
+  "favicon": "popcornsar/favicon.ico",
+  "loader": "popcornsar/loader.svg",
   "websocketContext": "/api/websocket",
-  "helpPath": "https://www.eclipse.org/che/",
-  "helpTitle": "Community",
-  "supportEmail": "che-dev@eclipse.org",
+  "helpPath": "https://www.autosar.io/",
+  "helpTitle": "PopcornSAR",
+  "supportEmail": "help@popcornsar.com",
   "oauthDocs": "Configure OAuth in the che.properties file.",
   "workspace": {
     "priorityStacks": ["Java", "Java-MySQL", "Blank"],
     "defaultStack": "java-mysql"
   },
-  "cli" : {
-    "configName" : "che.env",
-    "name" : "CHE"
+  "cli": {
+    "configName": "che.env",
+    "name": "CHE"
   },
-  "docs" : {
-    "devfile" : "/docs/che-7/using-developer-environments-workspaces.html#making-a-workspace-portable-using-a-devfile_using-developer-environments-workspaces",
-    "workspace" : "/docs/what-are-workspaces.html",
-    "factory" : "/docs/factories-getting-started.html",
+  "docs": {
+    "devfile": "/docs/che-7/using-developer-environments-workspaces.html#making-a-workspace-portable-using-a-devfile_using-developer-environments-workspaces",
+    "workspace": "/docs/che-7/workspaces-overview/",
+    "factory": "/docs/factories-getting-started.html",
     "organization": "/docs/organizations.html",
     "converting": "/docs/che-7/converting-a-che-6-workspace-to-a-che-7-devfile/",
-    "general": "/docs"
+    "general": "/docs/che-7"
   }
 }
