@@ -39,9 +39,9 @@ init() {
   BOLD='\033[1m'
   UNDERLINE='\033[4m'
 
-  ORGANIZATION="eclipse"
+  ORGANIZATION="popcornsar"
   PREFIX="che"
-  TAG="nightly"
+  TAG="7.4.0"
   SKIP_TESTS=false
   NAME="che"
   ARGS=""
